@@ -1,0 +1,52 @@
+.capstone1 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.capstone {
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.capstonestart {
+    background: #438bc6;
+    border-radius: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #22ded2;
+    transition: color 0.3s ease-in-out;
+    min-width: none;
+    width: 300px;
+    border-bottom: 10px solid #87CEEB;
+    border-left: 10px solid #87CEEB;
+    border-right: 10px solid #87CEEB;
+}
+
+.capstonestart:hover {
+    background: #3d88c5;
+    border-radius: 30px;
+    font-size: 60px;
+    font-weight: 600;
+    color: #04fcec;
+    transition: color 0.3s ease-in-out;
+    min-width: none;
+    width: 300px;
+}
+
+
+/*
+.capstonestart {
+    background: #00a6ff;
+    border-radius: 40px;
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(59, 19, 221);
+    min-width: none;
+    width: 300px;
+    border: 10px 10px solid yellow;
+    border-bottom: 10px solid #092c3f;
+    border-left: 10px solid #092c3f;
+    border-right: 10px solid #092c3f;
+}
+*/

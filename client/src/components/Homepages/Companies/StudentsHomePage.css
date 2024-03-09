@@ -1,0 +1,10 @@
+.studentshomepage {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .studentshomepage {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

@@ -1,0 +1,151 @@
+.default {
+    width: 200px;
+    height: 80px;
+    margin-left: 105px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.learningpathprogressbar {
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 400;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+}
+
+
+/*.box {
+    background-color: #a66996;
+    /* Set your desired background color */
+
+
+/*border-radius: 10px;
+    /* Add rounded corners */
+
+
+/*padding: 4px;
+    /* Add padding for spacing */
+
+
+/*margin: 10px;
+    /* Add margin for spacing between elements */
+
+
+/*box-shadow: 0 0 0 rgba(0, 0, 0, 0.1);
+    width: 600px;
+    height: 250px;
+    /* Add a subtle box shadow for depth */
+
+
+/*}
+
+.schoolicon {
+    width: 100px;
+    height: 40px;
+    margin-right: 20px;
+    color: black;
+}
+
+.span {
+    margin-left: 58px;
+}
+
+.default1 {
+    display: flex;
+}*/
+
+
+/*.learning-path-progress {
+    text-align: center;
+    margin-left: 40px;
+}
+
+.learning-path-progress-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.progress-circle {
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.circular-chart {
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+}
+
+
+/*.circle-bg-inner {
+    fill: #128fe9;
+    stroke: none;
+    /* You can use a different color for the inner circle */
+
+
+/*.circle-bg-inner {
+    fill: linear-gradient(to bottom, rgb(193, 56, 186) 65%, #ffffff 65%, #ffffff 100%);
+    stroke: #17202a;
+    stroke-width: 4.5;
+}
+
+.circle {
+    fill: none;
+    stroke: #0884f7;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+    transform: (100%, 0%);
+}
+
+.progress-text {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+.percentage {
+    font-size: 18px;
+    font-weight: bold;
+    color: #f9f6f9;
+}
+
+@keyframes progress {
+    to {
+        stroke-dasharray: 100, 100;
+    }
+}
+
+
+/*@keyframes colorChange {
+    from {
+        fill: hsl(212, 79%, 51%);
+    }
+    to {
+        fill: hsl(212, 79%, 71%);
+    }
+}*/
+
+
+/*.learning-path-progress-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* Style the percentage text */
+
+
+/*.learning-path-progress-percentage {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5d38ba;
+    /* Change the color to your preference */

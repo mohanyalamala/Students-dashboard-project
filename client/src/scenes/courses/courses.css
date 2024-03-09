@@ -1,0 +1,128 @@
+.courses {
+    display: flex;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    margin-top: 0px;
+}
+
+.courses a {
+    text-decoration: none;
+    /*color: #07f1e1;*/
+    color: white;
+    /*text-align: center;*/
+    transition: color 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+    padding: 0px;
+    margin-left: 60px;
+}
+
+.courses a:hover {
+    color: #f1f4f8;
+    margin-left: 60px;
+}
+
+.active-link:hover {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+    margin-left: 40px;
+}
+
+.active {
+    margin-left: 4px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.favorite-link:hover {
+    color: #007bff;
+    /*border-bottom: 1px solid #007bff;*/
+    border-bottom: 1px solid #007bff;
+}
+
+.favorite {
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.launched-link:hover {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+}
+
+.launched {
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 100%;
+    /* Set the width to 100% to span the entire container */
+    border: 1px solid white;
+    /* Add a border style, adjust as needed */
+    margin: 10px 0px 10px 0px;
+}
+
+.active a:hover .myactive,
+.courses a:hover .myfavorite,
+.courses a:hover .mylaunched {
+    display: block;
+}
+
+.myactive {
+    color: white;
+    font-size: 10px;
+    /*margin-left: 10px;*/
+}
+
+.myfavorite {
+    color: white;
+    font-size: 4px;
+    /*margin-left: 40px;*/
+}
+
+.mylaunched {
+    color: white;
+    font-size: 10px;
+    /*margin-left: 40px;*/
+}
+
+.pythoncourse {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.pythoncoursesh1 {
+    margin-left: 20px;
+}
+
+.iotusingh1 {
+    margin-left: 20px;
+}
+
+.iotusing {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.blecourseh1 {
+    margin-left: 20px;
+}
+
+.blecourse {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .courses {
+        padding: 10px;
+        /* Adjust padding for smaller screens */
+    }
+    .active,
+    .favorite,
+    .launched {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
+}

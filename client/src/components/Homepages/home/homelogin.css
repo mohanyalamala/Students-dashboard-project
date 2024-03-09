@@ -1,0 +1,98 @@
+.modalBackground {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    height: 421px;
+    width: 700px;
+    background: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    border: 2px solid black;
+}
+
+.titleCloseBtn {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: white;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    align-items: center;
+    /* box-shadow: 6px 6px 30px -4px black; */
+    cursor: pointer;
+}
+
+.titleCloseBtn button {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.background-video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 18px;
+}
+
+.learncenter {
+    position: relative;
+}
+
+.video-overlaypapup-1 {
+    position: absolute;
+    top: 92%;
+    transform: translate(70%, -320%);
+    color: white;
+    background-color: rgb(87, 249, 195);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.video-overlaypapups-1 {
+    position: absolute;
+    top: 65%;
+    /* left: 50%; */
+    transform: translate(-60%);
+    /* text-align: center; */
+    color: white;
+    background-color: rgb(172, 93, 247);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    height: 40px;
+}
+
+.video-overlaypapup-1:hover {
+    background-color: rgb(4, 255, 171);
+}
+
+.video-overlaypapups-1:hover {
+    background-color: rgb(131, 2, 252);
+}
+
+.video-overlaypapupflex {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .modalBackground {
+        margin-left: 100px;
+        width: 650px;
+        height: 361px;
+    }
+}

@@ -1,0 +1,24 @@
+.vertical-progress-container {
+    text-align: center;
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.vertical-progress-heading {
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    font-family: 'Lato', sans-serif;
+}
+
+.projectsprogress {
+    margin-left: 80px;
+    width: 250px;
+    /* Adjust the width as needed */
+    height: 80px;
+    color: Indigo;
+    /* Adjust the height as needed */
+    /* Ensure that the container doesn't take the full width */
+}

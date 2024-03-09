@@ -1,0 +1,250 @@
+:root {
+    --font-stack-heading-serif: 'SuisseWorks', Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.postprojects1-headers {
+    overflow-y: hidden;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.postprojects1-cssimagesflex {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.postprojects1-css {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.postprojects1-container {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: var(--font-stack-heading-serif);
+    margin-top: 20px;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.yourproject1-p {
+    display: block;
+    font-size: 20px;
+    color: #888;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.yourproject1-h2 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: var(--font-stack-heading-serif);
+    color: #333;
+    text-align: center;
+}
+
+.postprojects1-css-input {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    border: 2px solid rgb(252, 129, 254);
+}
+
+.postprojects1-css-textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 180px;
+    border: 2px solid rgb(252, 129, 254);
+}
+
+.postprojects1-css-button {
+    display: flex;
+    margin-left: 185px;
+}
+
+.postprojects1-button {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.postprojects1-button-4 {
+    width: 150px;
+    margin-left: 80px;
+}
+
+.postprojectssuccess-message {
+    color: rgb(5, 249, 82);
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 120px;
+}
+
+.postprojects1-rangs-steps-1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.postprojects1-range-meter {
+    width: 400px;
+    margin-right: 40px;
+}
+
+.postprojects1-hr {
+    border: 0.5px solid #a9a9a9;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    width: 700px;
+}
+
+.postprojects1-rangs-steps-2 {
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+@media (max-width: 768px) {
+    .postprojects1-header {
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .postprojects1-css {
+        margin-left: 40px;
+        margin-right: 40px;
+        width: 700px;
+    }
+    .postprojects1-container {
+        font-size: 30px;
+    }
+    .postprojects1-hr {
+        border: 0.5px solid #a9a9a9;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        width: 600px;
+    }
+}
+
+
+/* .postprojects1-header {
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.postprojects1-cssimagesflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    background-image: url('ordinary-human-job-performed-by-anthropomorphic-robot.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 0;
+}
+
+.postprojects1-css {
+    padding: 20px;
+    margin-left: 80px;
+}
+
+.postprojects1-container {
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    color: rgb(1, 1, 1);
+}
+
+.yourproject1-p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.yourproject1-h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.postprojects1-css-input,
+.postprojects1-css-textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.postprojects1-css-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.postprojects1-button,
+.postprojects1-button-4 {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.postprojects1-button {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.postprojects1-button-4 {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.success-message {
+    color: #2ecc71;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.postprojects1-rangs-steps-1,
+.postprojects1-rangs-steps-2 {
+    text-align: center;
+}
+
+.postprojects1-range-meter {
+    width: 100%;
+    height: 10px;
+}
+
+.postprojects1-cssimages {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+    .postprojects1-header {
+        padding: 0;
+    }
+    .postprojects1-cssimagesflex {
+        padding: 20px;
+    }
+    .postprojects1-container {
+        font-size: 20px;
+    }
+} */

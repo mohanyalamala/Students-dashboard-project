@@ -1,0 +1,18 @@
+.hoescoreprogresscontainer {
+    margin-left: 100px;
+}
+
+.hoescoreprogressheading {
+    margin-top: 40px;
+    margin-left: 310px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.hoescoreprogress {
+    width: 250px;
+    height: 80px;
+    margin-left: 300px;
+}

@@ -1,0 +1,161 @@
+.center-login {
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.center-login {
+    color: hsl(205, 100%, 50%);
+    margin-left: 214px;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.linkedin-google {
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.googleicon {
+    width: 60px;
+    height: 60px;
+}
+
+.linkedinicon {
+    width: 40px;
+    height: 40px;
+    margin-left: 40px;
+}
+
+.loginhr {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.loginhrline {
+    width: 200px;
+    margin-left: 140px;
+    margin-right: 10px;
+}
+
+.loginhrline1 {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.label1 {
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+.form-control {
+    margin-left: 140px;
+    width: 440px;
+}
+
+.email {
+    margin-right: 160px;
+}
+
+.remember {
+    margin-top: 180px;
+    font-size: 20px;
+}
+
+.error-message {
+    margin-left: 200px;
+    color: red;
+}
+
+.success-message {
+    margin-left: 200px;
+    color: green;
+}
+
+#signin {
+    margin-left: 140px;
+    background: #3CB371;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    min-width: none;
+    width: 440px;
+}
+
+.social {
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.socials-1 {
+    margin-top: 40px;
+}
+
+.account {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.loginhere {
+    margin-left: 100px;
+}
+
+.checkboxlogin-1 {
+    margin-left: 160px;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.rememberes-1 {
+    margin-left: 10px;
+}
+
+.recoverpassword-1 {
+    margin-left: 160px;
+}
+
+@media (max-width: 768px) {
+    .center,
+    .label1,
+    .form-control,
+    .email,
+    .remember,
+    #signin {
+        margin-left: 140px;
+    }
+    .login {
+        margin-left: 220px;
+    }
+    .checkboxlogin-1 {
+        margin-left: 160px;
+    }
+    .rememberes-1 {
+        margin-left: 10px;
+    }
+    .recoverpassword-1 {
+        margin-left: 180px;
+    }
+    .loginhere {
+        margin-left: 60px;
+    }
+    .social {
+        margin-left: 250px;
+    }
+    .linkedin {
+        margin-left: 300px;
+    }
+    .error-message,
+    .success-message {
+        margin-left: 300px;
+    }
+    .account {
+        margin-left: 160px;
+    }
+}

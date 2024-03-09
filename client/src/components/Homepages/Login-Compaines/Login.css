@@ -1,0 +1,71 @@
+.center {
+    margin-left: 180px;
+    margin-top: 60px;
+}
+
+.login-1 {
+    color: hsl(205, 100%, 50%);
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form-control {
+    margin-left: 180px;
+    width: 300px;
+}
+
+#labelcompaines {
+    margin-right: 180px;
+}
+
+.remember {
+    margin-top: 200px;
+}
+
+.error-message {
+    margin-left: 700px;
+    color: red;
+}
+
+.success-message {
+    margin-left: 700px;
+    color: green;
+}
+
+#signin {
+    margin-left: 600px;
+    background: #3CB371;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    min-width: none;
+    width: 300px;
+}
+
+.social {
+    margin-left: 650px;
+}
+
+.linkedin {
+    margin-left: 700px;
+}
+
+.account {
+    margin-left: 640px;
+}
+
+.loginhere {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .login-1 {
+        margin-left: 200px;
+    }
+}

@@ -1,0 +1,128 @@
+.projects {
+    display: flex;
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
+    margin-top: 0px;
+}
+
+.projects a {
+    text-decoration: none;
+    /*color: #07f1e1;*/
+    color: white;
+    /*text-align: center;*/
+    transition: color 0.3s ease-in-out, margin-left 0.3s ease-in-out;
+    padding: 0px;
+    margin-left: 60px;
+}
+
+.projects a:hover {
+    color: #f1f4f8;
+    margin-left: 60px;
+}
+
+.activeprojects-link:hover {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+    margin-left: 40px;
+}
+
+.activeprojects {
+    margin-left: 4px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.favoriteprojects-link:hover {
+    color: #007bff;
+    /*border-bottom: 1px solid #007bff;*/
+    border-bottom: 1px solid #007bff;
+}
+
+.favoriteprojects {
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.launchedprojects-link:hover {
+    color: #007bff;
+    border-bottom: 1px solid #007bff;
+}
+
+.launchedprojects {
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+hr {
+    width: 100%;
+    /* Set the width to 100% to span the entire container */
+    border: 1px solid white;
+    /* Add a border style, adjust as needed */
+    margin: 10px 0px 10px 0px;
+}
+
+.courses a:hover .myactive,
+.courses a:hover .myfavorite,
+.courses a:hover .mylaunched {
+    display: block;
+}
+
+.myactiveprojects {
+    color: white;
+    font-size: 10px;
+    /*margin-left: 10px;*/
+}
+
+.myfavoriteprojects {
+    color: white;
+    font-size: 4px;
+    /*margin-left: 40px;*/
+}
+
+.mylaunchedprojects {
+    color: white;
+    font-size: 10px;
+    /*margin-left: 40px;*/
+}
+
+.smartshoe {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.smartshoeh1 {
+    margin-left: 20px;
+}
+
+.homeautomationh1 {
+    margin-left: 20px;
+}
+
+.homeautomation {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.mylaunchedh1 {
+    margin-left: 20px;
+}
+
+.mylaunched {
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .courses {
+        padding: 10px;
+        /* Adjust padding for smaller screens */
+    }
+    .active,
+    .favorite,
+    .launched {
+        font-size: 18px;
+        /* Adjust font size for smaller screens */
+    }
+}

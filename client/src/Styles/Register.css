@@ -1,0 +1,173 @@
+.signup-body {
+    /*background: linear-gradient( #FFDEAD 50%, #FFFFFF 40%);*/
+    height: 1100px;
+    overflow-y: auto;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+
+.img {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.Pangaea {
+    text-align: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.card {
+    width: 500px;
+}
+
+h1 {
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+#lable {
+    width: 400px;
+}
+
+.name {
+    margin-right: 270px;
+}
+
+.email {
+    margin-right: 235px;
+}
+
+.password {
+    margin-right: 290px;
+}
+
+.confirm {
+    margin-right: 230px;
+}
+
+h1 {
+    font-weight: 500;
+    text-align: center;
+}
+
+a {
+    margin-top: 80px;
+}
+
+.btn-dark {
+    margin-left: 100px;
+}
+
+.mt-5 {
+    align-items: center;
+    margin-left: 500px;
+    width: 500px;
+}
+
+.form-group {
+    margin-left: 40px;
+}
+
+#submit {
+    background: #3CB371;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    min-width: none;
+    width: 400px;
+    margin-left: 0px;
+}
+
+.check {
+    margin-top: 54px;
+}
+
+.social {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+.png {
+    display: flex;
+    margin-right: 100px;
+}
+
+#alert {
+    color: red;
+}
+
+#email-alert {
+    color: red;
+}
+
+.passwo {
+    margin-right: 100px;
+}
+
+.col-sm-4 {
+    margin: 100px
+}
+
+.linkedin {
+    margin-left: 0px;
+}
+
+.fa-google {
+    margin-left: 0px;
+    color: black;
+}
+
+.fa-facebook {
+    margin-left: 40px;
+    color: black;
+}
+
+.fa-linkedin {
+    margin-left: 40px;
+    color: black;
+}
+
+.account {
+    display: flex;
+}
+
+.account p {
+    margin-left: 0px;
+}
+
+.account a {
+    margin-left: 50px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 0px;
+    margin-left: 100px;
+}
+
+#phoneNumber {
+    width: 360px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}

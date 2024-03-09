@@ -1,0 +1,24 @@
+.backgroundimagescompaines-1 {
+    width: 800px;
+    height: 800px;
+}
+
+.backgroundimagescompaines {
+    width: 800px;
+    height: 600px;
+}
+
+.backgroundimagescompainesflex {
+    display: flex;
+}
+
+#hubits-div {
+    width: 111.5%;
+    overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+    #hubits-div {
+        width: 800px;
+    }
+}

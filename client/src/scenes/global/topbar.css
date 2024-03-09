@@ -1,0 +1,17 @@
+.darknotification1 {
+    /* Set initial styles for larger screens */
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    /* This will push the icons to the right */
+    /* Styles for desktop */
+    @media (min-width: 768px) {
+        justify-content: flex-end;
+    }
+    /* Styles for phone */
+    @media (max-width: 768px) {
+        justify-content: space-between;
+        margin-left: 0;
+        /* Remove margin for smaller screens */
+    }
+}

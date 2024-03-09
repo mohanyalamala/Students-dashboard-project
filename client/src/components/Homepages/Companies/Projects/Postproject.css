@@ -1,0 +1,290 @@
+:root {
+    --font-stack-heading-serif: 'SuisseWorks', Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.postprojects-cssimagesflex {
+    display: flex;
+}
+
+.postprojects-css {
+    background-color: white;
+    width: 800px;
+    height: 800px;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+#postprojects1-css {
+    height: 140%;
+}
+
+.postproject6color {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.container-1 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: var(--font-stack-heading-serif);
+    margin-top: 20px;
+    color: #333;
+    padding: 20px;
+}
+
+.yourproject {
+    display: block;
+    font-size: 20px;
+    color: #888;
+}
+
+#yourproject {
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.yourproject-1 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: var(--font-stack-heading-serif);
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    color: #333;
+}
+
+#yourproject-1 {
+    margin-right: 10px;
+}
+
+.yourproject-2 {
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: var(--font-stack-heading-serif);
+    color: #333;
+}
+
+.postprojects-css-1 {
+    text-align: center;
+}
+
+.postprojects-css-input {
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.postprojects-css-textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.postprojects-css-button {
+    display: flex;
+    margin-left: 210px;
+}
+
+.postbutton {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.postbutton-1 {
+    width: 150px;
+    margin-left: 80px;
+}
+
+.success-message1 {
+    color: rgb(67, 4, 255);
+}
+
+.rangs-steps {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.range-meter {
+    width: 400px;
+}
+
+.spanBussiness-rangs-steps {
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+.postprojects-option-select {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.postprojects-css-input-1 {
+    width: 370px;
+    margin-right: 60px;
+    border: 2px solid rgb(121, 118, 118);
+    border-radius: 6px;
+}
+
+.rangs-steps1 {
+    color: black;
+}
+
+.postprojects-css-button-1 {
+    display: flex;
+    margin-left: 182px;
+    margin-top: 40px;
+}
+
+#rangs-steps {
+    margin-right: 60px;
+}
+
+#postprojects-css-button-1 {
+    margin-top: 0px;
+    margin-left: 570px;
+}
+
+#postprojects-css-button {
+    margin-left: 130px;
+}
+
+.postprojectsoptionsdiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.postprojectsoptionsdiv div {
+    width: 48%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.postprojectsoptionsdiv div:hover {
+    background-color: #3CB371;
+    color: white;
+}
+
+.postprojectssearch {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+/* .postprojects-css-inputs {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 160px;
+    width: 400px;
+    height: 150px;
+} */
+
+.postprojects-css-inputs {
+    width: 600px;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+.postprojects-css-inputs:focus {
+    outline: none;
+    border-color: #2E8B57;
+    /* Change the border color when focused */
+}
+
+
+/* Styling individual items */
+
+.postprojects-css-inputs::first-line {
+    font-weight: bold;
+    color: #2E8B57;
+}
+
+
+/* Styling all items */
+
+.postprojects-css-inputs::placeholder,
+.postprojects-css-inputs,
+.postprojects-css-inputs::after {
+    color: #72b1d3;
+    font-style: italic;
+    font-size: 20px;
+    ;
+}
+
+.buttongets-1 {
+    padding: 10px 15px;
+    background-color: #3CB371;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.buttongets-1:hover {
+    background-color: #2E8B57;
+}
+
+.selected-skill {
+    display: inline-block;
+    background-color: #eee;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.delete-button {
+    cursor: pointer;
+    background-color: #ff6961;
+    color: #fff;
+    border: none;
+    padding: 3px 5px;
+    margin-left: 5px;
+    border-radius: 3px;
+}
+
+.publish {
+    padding-top: 140px;
+}
+
+@media (max-width: 768px) {
+    .postprojects-css {
+        margin-left: 60px;
+        margin-right: 40px;
+        width: 700px;
+    }
+    .postprojects-css-2 {
+        text-align: center;
+    }
+    .postprojects-css-text {}
+    .postprojects-css-button,
+    .postprojects-css-button-1 {
+        margin-left: 190px;
+    }
+    .postprojects-option-select {
+        margin-right: 0px;
+    }
+    #postprojects-css-button-1 {
+        margin-left: 200px;
+    }
+    .success-message1 {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+}

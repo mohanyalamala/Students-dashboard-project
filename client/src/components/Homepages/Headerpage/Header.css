@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Your+Custom+Font&display=swap');
+.hubits-div {
+    display: flex;
+    background-color: white;
+    color: rgb(219, 28, 230);
+    padding: 10px 20px;
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    font-family: 'Your Preferred Font', sans-serif;
+}
+
+.bits1 {
+    margin-left: 4px;
+    color: black;
+}
+
+.hubitsp {
+    margin: 0px;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.hubits {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    color: #959495;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    font-family: 'Lato', sans-serif;
+}
+
+.backhubits {
+    background-color: white;
+}
+
+.responsive-menu {
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.aboutus {
+    margin-left: 800px;
+}
+
+#huebits {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-underline-offset: 6px;
+    transition: color 0.3s;
+}
+
+#huebits li:hover {
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-underline-offset: 6px;
+    color: rgb(222, 70, 70);
+}
+
+
+/* Phone styles */
+
+@media (max-width: 767px) {
+    .hubits-div {
+        flex-direction: column;
+        padding: 10px;
+        overflow: hidden;
+    }
+    .hubits {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        width: 600px;
+        height: 100%;
+        margin-right: 200px;
+        margin-left: 400px;
+        padding: 40px;
+    }
+    .aboutus {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .responsive-menu {
+        display: block;
+    }
+    .hubits li {
+        display: none;
+    }
+    .hubits.active li {
+        display: block;
+    }
+    .hubits.active {
+        background-color: rgb(247, 247, 250);
+        position: absolute;
+        top: 10px;
+        right: 10px;
+    }
+}
+
+
+/* Desktop styles */
+
+@media (min-width: 768px) {
+    .hubits-div {
+        flex-direction: row;
+    }
+    .hubits {}
+    .aboutus {}
+    .responsive-menu {
+        display: none;
+    }
+    .hubits li {
+        display: block;
+    }
+}

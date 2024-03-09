@@ -1,0 +1,45 @@
+.sidebar {
+    background: rgb(70, 115, 142);
+    height: 100%;
+}
+
+.menu-item {
+    margin: 10px 0 20px 0;
+    color: grey;
+    transition: background-color 0.3s;
+    /* Adding a smooth transition effect */
+}
+
+.custom-menu-item {
+    font-weight: 1000;
+}
+
+.titledashboards {
+    font-weight: 900;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: none;
+}
+
+.icon-margin {
+    margin-right: 0px;
+}
+
+.titledashboards:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.titledashboards-clicked {
+    background-color: rgb(27, 182, 234);
+}
+
+.logout-item {
+    margin-top: 240px;
+}
+
+.logout-button {
+    font-size: 20px;
+    color: black;
+}

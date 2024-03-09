@@ -1,0 +1,135 @@
+.companiesregister-1 {
+    margin-top: 70px;
+    background-color: white;
+}
+
+.register-1 {
+    color: hsl(217, 100%, 75%);
+    margin-left: 450px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+.fases-1 {
+    position: absolute;
+    margin-top: 40px;
+    color: black;
+    left: 610px;
+}
+
+.fa-envelopes-1 {
+    position: absolute;
+    margin-top: 40px;
+    color: black;
+    left: 610px;
+}
+
+.fa-eyes-1 {
+    position: absolute;
+    margin-top: 40px;
+    color: black;
+    left: 880px;
+}
+
+.label2 {
+    margin-left: 10px;
+}
+
+.checkbox-compaines {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.check-1 {
+    margin-left: 20px;
+}
+
+.errormessage {
+    color: red;
+    margin-left: 500px;
+}
+
+.error-message1 {
+    color: red;
+    margin-left: 600px;
+}
+
+.success-message1 {
+    color: green;
+    margin-left: 650px;
+}
+
+#signup {
+    margin-left: 600px;
+    background: #3CB371;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    min-width: none;
+    width: 300px;
+}
+
+.accounts {
+    margin-left: 620px;
+}
+
+.signuphere-compaines {
+    margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+    .register-1 {
+        margin-left: 40px;
+    }
+    .fases-1,
+    .fa-envelopes-1,
+    .fa-eyes-1 {
+        left: 210px;
+    }
+    .fa-eyes-1 {
+        margin-left: 270px;
+    }
+    .checkbox-compaines {
+        margin-top: 4px;
+    }
+    .check-1 {
+        margin-left: 20px;
+    }
+    .errormessage {
+        color: red;
+        margin-left: 500px;
+    }
+    .error-message1 {
+        color: red;
+        margin-left: 600px;
+    }
+    .success-message1 {
+        color: green;
+        margin-left: 650px;
+    }
+    #signup {
+        margin-left: 600px;
+        background: #3CB371;
+        border-bottom: 0cap;
+        border-left: 0cap;
+        border-right: 0cap;
+        border-top: 0cap;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 600;
+        color: white;
+        min-width: none;
+        width: 300px;
+    }
+    .accounts {
+        margin-left: 220px;
+    }
+    .signuphere-compaines {
+        margin-left: 20px;
+    }
+}

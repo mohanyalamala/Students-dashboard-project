@@ -1,0 +1,127 @@
+.postprojects1-cssimagesflexsignup {
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    height: 650px;
+}
+
+.label2 {
+    margin-left: 140px;
+    font-size: 20px;
+}
+
+.userfase1 {
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    left: 150px;
+}
+
+.usereye1 {
+    color: black;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 320px;
+}
+
+.checkbox {
+    margin-left: 150px;
+}
+
+.checkbox-1 {
+    position: absolute;
+}
+
+.checked1 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.errormessage {
+    color: red;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.error-message1 {
+    color: red;
+    margin-left: 140px;
+    font-size: 16px;
+}
+
+.success-message1 {
+    color: green;
+    margin-left: 280px;
+}
+
+#signup {
+    margin-left: 140px;
+    background: #3CB371;
+    border-bottom: 0cap;
+    border-left: 0cap;
+    border-right: 0cap;
+    border-top: 0cap;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    min-width: none;
+    width: 440px;
+}
+
+.signupaccounts {
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.signuphere {
+    margin-left: 60px;
+}
+
+@media (max-width: 768px) {
+    .login,
+    .label2,
+    .email,
+    .remember,
+    #signup,
+    .center-login {
+        margin-left: 140px;
+    }
+    .center1signup {
+        margin-left: 80px;
+    }
+    .userfase1 {
+        color: black;
+        position: absolute;
+        margin-top: 50px;
+        left: 160px;
+    }
+    .usereye1 {
+        margin-top: 50px;
+        margin-left: 320px;
+    }
+    .checked {
+        margin-left: 160px;
+    }
+    .checkbox-1 {
+        position: absolute;
+    }
+    .checked1 {
+        margin-left: 20px;
+    }
+    .signupaccounts {
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+    .loginhere {
+        margin-left: 80px;
+    }
+    .linkedin {
+        margin-left: 300px;
+    }
+    .error-message,
+    .success-message {
+        margin-left: 300px;
+    }
+}

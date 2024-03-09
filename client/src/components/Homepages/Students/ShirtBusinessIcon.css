@@ -1,0 +1,44 @@
+.shirt-icon {
+    position: relative;
+    width: 100px;
+    height: 120px;
+    background-color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.shirt-body {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    background-color: #3498db;
+}
+
+.shirt-collar {
+    position: absolute;
+    top: 10px;
+    left: 40px;
+    width: 20px;
+    height: 20px;
+    border-top: 15px solid #ffffff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.shirt-sleeve {
+    position: absolute;
+    top: 40px;
+    left: -5px;
+    width: 20px;
+    height: 60px;
+    background-color: #3498db;
+    transform: rotate(-45deg);
+}
+
+.shirt-sleeve:nth-child(2) {
+    left: 65px;
+    transform: rotate(45deg);
+}
