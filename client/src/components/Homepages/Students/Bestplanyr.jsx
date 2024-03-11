@@ -9,9 +9,6 @@ const Bestplan = () => {
             <div className="Choose-Servicess">
               <p className="Choose-Servicess-span"><span className="choosespan">Choose</span><span> annual Billing</span><span className="choosespan"> and get</span><span> 3 months free</span><span className="choosespan"> every year</span>.</p>
               <div className="Choose-Serviceses">
-                {/* <p className="spanbusiness"><span>
-                We want to help set your business on the path of success.
-                  </span> */}
                   <p>
                   <div className="inr2-3-lakh-flex inrperflex">
                   <div className="inr2-3">
