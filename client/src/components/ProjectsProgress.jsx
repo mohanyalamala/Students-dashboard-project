@@ -30,32 +30,3 @@ const VerticalProgressBar = ({ percentage }) => (
 );
 
 export default VerticalProgressBar;
-
-
-
-
-/*import React from "react";
-import './dashboardheader.css';
-const ProjectsProgress = () => {
-  return (
-  <div className="dashboard">
-    <div className="projectsprogress">
-    <h1 className="learningpathprogress">Projects Progress </h1>
-    </div>
-  </div>
-  )
-}
-
-export default ProjectsProgress;*/
-
-/*<CircularProgressbar
-        value={percentage}
-        text={`${percentage}%`}
-        styles={{
-          path: { stroke: `rgba(62, 152, 199, ${percentage / 100})`,
-          transform: `rotate(-126deg)`, // Corrected placement
-          transformOrigin: "center center",},
-          text: { fill: "#fff" },
-        }}
-      />*/
-
