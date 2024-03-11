@@ -55,32 +55,3 @@ const Courses = () => {
 };
 
 export default Courses;
-
-
-
-
-
-
-
-
-
-
-
-
-/*import React from 'react';
-import { Link } from 'react-router-dom';
-import './courses.css';
-
-const Courses = () => {
-
-    return (
-        <div className='courses'>
-            <Link to="/my-favorite-courses" className='active-link'><h1 className='favorite'>My Active Courses</h1></Link>
-            <Link to="/my-favorite-courses" className='favorite-link'><h1 className='favorite'>My Favorite Courses</h1></Link>
-            <Link to="/my-newlylaunched-course" className='launched-link'><h1 className='launched'>Newly Launched Courses</h1></Link>
-        </div>  
-    );
-};
-
-export default Courses;*/
-
