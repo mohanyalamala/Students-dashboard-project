@@ -183,42 +183,6 @@
     font-size: 20px;
 }
 
-
-/* Responsive Styling */
-
-
-/*@media (max-width: 768px) {
-    .h1,
-    .h2,
-    .mylearningpath {
-        margin-left: 20px;
-        /* Adjust margin for smaller screens */
-
-
-/*}
-}
-
-
-/* Styles for phone screens */
-
-
-/*@media (max-width: 768px) {
-    .standardflex {
-        flex-direction: column;
-    }
-}
-
-
-/* Styles for desktop screens */
-
-
-/*@media (min-width: 768px) {
-    .standardflex {
-        flex-direction: row;
-    }
-}*/
-
-
 /* Responsive Styling */
 
 @media (max-width: 768px) {
