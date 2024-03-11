@@ -27,27 +27,3 @@ const userProfile = async(req, res) => {
 };
 
 module.exports = userProfile;
-
-
-
-
-
-
-
-// const User = require('../model/user.model');
-
-// const userProfile = async(req, res) => {
-//     try {
-//         const { username } = req;
-//         const user = await User.findOne({ username });
-//         if (!user) {
-//             return res.status(404).json({ error: 'User not found' });
-//         }
-//         res.json({ status: 'Success', user: { username: user.username, displayName: user.displayName } });
-//     } catch (error) {
-//         console.error('Error fetching user profile:', error);
-//         res.status(500).json({ error: 'Internal server error' });
-//     }
-// };
-
-// module.exports = userProfile;
