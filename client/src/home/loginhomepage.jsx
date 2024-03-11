@@ -1,26 +1,3 @@
-// import React from "react";
-// import {Link} from "react-router-dom";
-// import Headerpage from "../components/Homepages/Headerpage/Headerpage";
-
-
-// const LoginHomepage = () => {
-//     return (
-//     <div className="students-flex companies-flex">
-//         <Headerpage />
-//       <Link to="/login"><button className="buttonget">
-//         Students Sign In
-//         </button></Link>
-//         <Link to="/transformation"><button className="buttonget">Compaines Sign In
-//         </button></Link>
-//     </div>
-       
-//     )
-// }
-
-// export default LoginHomepage;
-
-
-
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./loginhomepage.css";
