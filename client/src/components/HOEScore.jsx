@@ -1,36 +1,3 @@
-/*import React from "react";
-import { CircularProgressbar,buildStyles } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-import "./hoescore.css";
-import ChangingProgressProvider from "./projectsprogeesprojects.jsx";
-
-const VerticalProgressBar = ({ percentage }) => (
-  <div className="hoescoreprogresscontainer">
-    <h1 className="hoescoreprogressheading">Hoe Score</h1>
-    <div className="hoescoreprogress">
-      <ChangingProgressProvider values={[80]}>
-        {value => (
-          <CircularProgressbar
-            value={value}
-            /*text={`${value}`}*/
-            /*text={`8/10`}
-            circleRatio={0.50}
-            styles={buildStyles({
-              rotation: 1 / 2 + 2 / 8,
-              strokeLinecap: "butt",
-              textColor: "white",
-              pathColor: "yellow",
-              trailColor: "lightyellow",
-            })}
-          />
-        )}
-      </ChangingProgressProvider>
-    </div>
-  </div>
-);
-
-export default VerticalProgressBar;*/
-
 import React from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
