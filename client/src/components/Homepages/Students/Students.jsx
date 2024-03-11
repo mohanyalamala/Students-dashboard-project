@@ -5,12 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight,faToggleOn, faToggleOff  } from "@fortawesome/free-solid-svg-icons";
 import product from "./images/carousel.jpg";
 import behaves from "../Companies/behaves.jpg";
-// import SystemUpdateIcon from './SystemUpdateIcon';
-// import Stating from "./Setting";
-// import AwardIconsawared from "./awardsiconsawared ";
-// import FactoryIcon from "./Factorys";
-// import BriefcaseIcon from "./Briefcases";
-// import ShirtBusinessIcon from "./Shirtbusiness";
 import Caursers from "./caursers";
 import Bestplan from "./Bestplan";
 import Bestplanyr from "./Bestplanyr";
@@ -232,51 +226,3 @@ const Students = () => {
 }
 
 export default Students;
-
-
-
-
-
-
-//const [showProductImage, setShowProductImage] = useState(false);
-// const [BestplanLink, setbestplanLink] = useState(null);
-// const [BestplanyrLink, setbestplanyrLink] = useState(null);
-// const [isButtonOn, setIsButtonOn] = useState(true);
-//const [billingType, setBillingType] = useState("monthly");
-
-  // const handleLinkClick = (linkName) => {
-  //     setbestplanLink(linkName);
-  //     setbestplanyrLink(linkName);
-  //     setIsButtonOn(!isButtonOn);
-  // };
-
-{/* <div className="Choose-Services">
-              <Link
-              className={BestplanLink === 'bestplan' ? 'bestplan-link' : 'bestplan-link'}
-              onClick={() => handleLinkClick('bestplan')} >
-             <button>Monthly billing</button>
-          </Link>
-          <Link
-            className={BestplanyrLink === 'bestplanyr' ? 'bestplanyr-link' : 'bestplanyr-link'}
-            onClick={() => handleLinkClick('bestplanyr')}>
-            <button>Annual billing</button>
-          </Link> */}
-                {/* <Link
-                className={BestplanLink === 'bestplan' ? 'bestplan-link' : 'bestplan-link'}
-                onClick={() => handleLinkClick('bestplan')}
-            >
-            <button>{isButtonOn ? 'Monthly billing' : 'Annual billing'}</button>
-            </Link>
-            <Link
-                className={BestplanyrLink === 'bestplanyr' ? 'bestplanyr-link' : 'bestplanyr-link'}
-                onClick={() => handleLinkClick('bestplanyr')}
-            >
-            <button>{isButtonOn ? 'Annual billing' : 'Monthly billing'}</button>
-            </Link> */}
-            {/* <h1 className="Choose bestplanchoose">Choose your best plan for success </h1>
-            </div>
-            <p className='bestplan'>{BestplanLink === 'bestplan' && <Bestplan />}</p>
-            <p className='bestplanyr'>{BestplanyrLink === 'bestplanyr' && <Bestplanyr />}</p> */}
-
-{/* <button>Monthly billing</button> */}
-{/* <button>Annual billing</button> */}
