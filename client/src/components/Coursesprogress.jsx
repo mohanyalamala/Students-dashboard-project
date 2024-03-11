@@ -1,52 +1,7 @@
-/*import React from "react";
-import "./courses.css";
-
-import { CircularProgressbar } from "react-circular-progressbar";
-import "react-circular-progressbar/dist/styles.css";
-
-const courseData = [
-  { name: "Course1", progress: 70 },
-  { name: "Course2", progress: 50 },
-  { name: "Course3", progress: 85 },
-  // Add more courses as needed
-];
-
-const CoursesProgress = () => {
-  return (
-    <div className="dashboard">
-      <div className="CoursesProgress">
-        <h1 className="learningpathprogress">Courses Progress</h1>
-
-        {/* Dynamically generate courses */
-        /*{courseData.map((course, index) => (
-          <div className="courses1">
-          <div key={index}>
-            <div className="course-container">
-              <h2 className="course1">{course.name}
-                <CircularProgressbar value={course.progress} text={`${course.progress}%`}/>
-                </h2>
-            </div>
-            </div>
-            </div>
-        ))}
-      </div>
-    </div>
-  );
-};
-
-export default CoursesProgress;*/
-
-
-
-
-
 import React from "react";
 import "./courses.css";
 
 
-/*import {
-  CircularProgressbar,
-} from "react-circular-progressbar";*/
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
