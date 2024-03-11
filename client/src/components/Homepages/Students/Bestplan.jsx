@@ -9,9 +9,6 @@ const Bestplan = () => {
             <div className="Choose-Servicess">
               <p className="Choose-Servicess-span"><span className="choosespan">Choose </span><span>annual Billing</span><span className="choosespan"> and get</span><span> 3 months.</span></p>
               <div className="Choose-Serviceses">
-                {/* <p className="spanbusiness"><span>
-                We want to help set your business on the path of success.
-                  </span> */}
                   <p>
                   <div className="inr2-3-lakh-flex inrperflex">
                   <div className="inr2-3">
@@ -68,22 +65,6 @@ const Bestplan = () => {
                         Newsletter Updates</p>
                         <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
                         Email & Chart support</p>
-                        {/* <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Coding Classes with 1000+ Challenges</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Digital Transformation Technology Training</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Mini Project + Major Project</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        In-House Internship</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Hackathons Support</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        External Internship Assurance</p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Placement Support Assurance </p>
-                        <p><FontAwesomeIcon icon={faCheck} className="fontawsomeicon" />
-                        Real-Time Industry Projects with Real Companies</p> */}
                         </div>
                         <Link to="/purchase">
                       <button className="buttonget" id="buttonget1">Purchase</button>
