@@ -56,23 +56,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-
-
-
-
-
-
-/*import React from "react";
-
-const Projects = () => {
-    return (
-        <div>
-            <h1>My Active Projects</h1>
-            <h1>My Favorite Projects</h1>
-            <h1>Newly Launched Projects</h1>
-        </div>
-    );
-};
-
-export default Projects;*/
